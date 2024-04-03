@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "rainworldbiomes",
+	"version": "${version}",
+	"name": "Rain World Biomes",
+	"description": "Adds biomes for Rain World",
+	"authors": [
+		"LudoCrypt"
+	],
+	"contact": {
+	},
+	"license": "LGPLv3",
+	"icon": "assets/rainworldbiomes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ludocrypt.rainworldbiomes.RainworldBiomes"
+		]
+	},
+	"mixins": [
+		"rainworldbiomes.mixins.json"
+	],
+	"depends": {
+	}
+}
